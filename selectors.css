@@ -1,0 +1,54 @@
+header {
+	border: 2px solid lightblue;
+}
+
+nav {
+	list-style: none;
+	display: flex;
+}
+
+nav li {
+	padding: 5px;
+}
+
+.disabled {
+	color: grey;
+}
+
+a .disabled {
+	color: purple;
+}
+
+.active {
+	color: yellow;
+}
+
+.parent div:first-child{
+	color: red;
+}
+
+.parent div:nth-child(3) {
+	color: blue;
+}
+
+.parent div:first-child + h4 {
+	background-color: red;
+}
+
+.parent div:nth-child(3) + h4 {
+	background-color: blue;
+}
+
+.grandparent > h4 {
+	border: 5px solid;
+	border-radius: 5px;
+}
+
+.promo {
+	font-weight: bold;
+	color: gold;
+}
+
+input {
+	height: 25px;
+}
