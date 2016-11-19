@@ -15,7 +15,7 @@ nav li {
 	color: grey;
 }
 
-a .disabled {
+a .disabled, a.disabled {
 	color: purple;
 }
 
